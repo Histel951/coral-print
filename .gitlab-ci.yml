@@ -1,0 +1,75 @@
+image: lorisleiva/laravel-docker:8.1
+
+.init_ssh: &init_ssh |
+  eval $(ssh-agent -s)
+  echo "${SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add - > /dev/null
+  mkdir -p ~/.ssh
+  chmod 700 ~/.ssh
+  [[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+
+stages:
+  - build
+  - test
+  - deploy
+
+composer:
+  stage: build
+  tags:
+    - php-runner
+  variables:
+    APP_ENV: testing
+  script:
+    - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts --ignore-platform-reqs
+    - cp .env.example .env
+    - php artisan key:generate
+  artifacts:
+    expire_in: 1 hours
+    paths:
+      - vendor/
+      - .env
+
+yarn:
+  stage: build
+  tags:
+    - php-runner
+  script:
+    - yarn
+    - yarn production
+  artifacts:
+    expire_in: 1 hours
+    paths:
+      - node_modules/
+
+pint:
+  stage: test
+  tags:
+    - php-runner
+  dependencies:
+    - composer
+  script:
+    - vendor/bin/pint -v --test --preset psr12
+
+phpunit:
+  stage: test
+  tags:
+    - php-runner
+  dependencies:
+    - composer
+  script:
+    - php artisan config:cache
+    - phpunit
+
+staging:
+  stage: deploy
+  variables:
+    DEPLOY_PROJECT_FOLDER: ${CI_PROJECT_NAME}_${CI_JOB_ID}
+  tags:
+    - php-runner
+  before_script:
+    - *init_ssh
+  script:
+    - ssh ${SSH_USER}@${SSH_HOST} -p${SSH_PORT} "ls ${DEPLOY_PATH}/${CI_PROJECT_NAME}_* -d --sort=time | tail -n +3 | xargs rm -rf {} \; && mkdir -p ${DEPLOY_PATH}/${DEPLOY_PROJECT_FOLDER} && cd ${DEPLOY_PATH}/${DEPLOY_PROJECT_FOLDER} && [[ -d .git ]] || git clone git@git.softmg.ru:${CI_PROJECT_PATH}.git ./ && git checkout develop && git pull origin develop && rm -r ${DEPLOY_PATH}/${DEPLOY_PROJECT_FOLDER}/storage/app && ln -s ${STORAGE_PATH} ${DEPLOY_PATH}/${DEPLOY_PROJECT_FOLDER}/storage && composer install --no-dev --optimize-autoloader && php artisan migrate --force && php artisan migrate --path=database/migrations/data --force && php artisan cache:clear && php artisan optimize && php artisan storage:link && yarn && yarn production && rm -r ${NGINX_PATH} && ln -s ${DEPLOY_PATH}/${DEPLOY_PROJECT_FOLDER} ${NGINX_PATH} && exit"
+  environment:
+    name: staging
+  only:
+    - develop

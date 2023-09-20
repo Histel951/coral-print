@@ -1,0 +1,1 @@
+<img src="{{ $block['image'] }}" class="mb-5" alt="">
