@@ -1,0 +1,56 @@
+<svg width="160" height="140" viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon-BC-round">
+<g id="cpid">
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M107.1 86V86.3H107V86.4H107.1V86.3H107.2V86.5H107V86.6H107.1V86.9H107V87H107.4V86.9H107.5V87H107.7V86.9H107.8V87H108V86.5H107.9V86.4H108V86.1H107.8V86H107.7V86.1H107.5V86H107.4V86.1H107.2V86H107.1ZM107.9 86.9H107.8V86.7H107.9V86.9ZM107.7 86.9H107.6V86.8H107.7V86.9ZM107.9 86.3V86.2H107.8V86.3H107.9ZM107.6 86.4V86.5H107.5V86.6H107.4V86.4H107.6Z" fill="#1E1E1E"/>
+</g>
+<circle id="Ellipse 198" cx="88" cy="78" r="48" fill="url(#paint0_linear_5891_16816)"/>
+<path id="Intersect" opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M73 117C99.5097 117 121 95.5097 121 69C121 54.6669 114.718 41.8011 104.757 33.0059C99.5399 31.0623 93.894 30 88 30C61.4903 30 40 51.4903 40 78C40 92.3331 46.2822 105.199 56.2434 113.994C61.4601 115.938 67.106 117 73 117Z" fill="#00195A"/>
+<circle id="Ellipse 197" cx="72" cy="68" r="48" fill="url(#paint1_linear_5891_16816)"/>
+<g id="Group 973" opacity="0.8">
+<g id="Group 781">
+<rect id="Rectangle 507" x="76" y="51" width="28" height="4" fill="#5A6E8C"/>
+</g>
+<g id="Group 783">
+<rect id="Rectangle 506" x="76" y="58" width="34" height="4" fill="#5A6E8C"/>
+</g>
+</g>
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M62.7271 73.3912L69 79.5821C65.488 83.0546 60.7175 85 55.748 85C45.3917 85 37 76.7179 37 66.5032C37 56.2821 45.3917 48 55.748 48C60.7175 48 65.488 49.9517 69 53.4179L62.7271 59.6088C60.9422 57.8472 58.4703 56.7573 55.748 56.7573C50.2905 56.7573 45.8668 61.117 45.8668 66.5032C45.8668 71.883 50.2905 76.249 55.748 76.249C58.4703 76.249 60.9422 75.1591 62.7271 73.3912Z" fill="url(#paint2_linear_5891_16816)"/>
+<g id="Group 974" opacity="0.8">
+<rect id="Rectangle 280" x="76" y="68" width="13" height="2" fill="#5A6E8C"/>
+<rect id="Rectangle 508" x="91" y="68" width="19" height="2" fill="#5A6E8C"/>
+<rect id="Rectangle 506_2" x="76" y="72" width="18" height="2" fill="#5A6E8C"/>
+<rect id="Rectangle 509" x="96" y="72" width="12" height="2" fill="#5A6E8C"/>
+</g>
+<g id="Group 975" opacity="0.5">
+<rect id="Rectangle 280_2" x="76" y="87" width="13.0769" height="2" fill="#5A6E8C"/>
+<rect id="Rectangle 508_2" x="91" y="87" width="16" height="2" fill="#5A6E8C"/>
+<rect id="Rectangle 506_3" x="76" y="91" width="18" height="2" fill="#5A6E8C"/>
+<rect id="Rectangle 509_2" x="96" y="91" width="8" height="2" fill="#5A6E8C"/>
+<rect id="Rectangle 510" x="76" y="95" width="23" height="2" fill="#5A6E8C"/>
+</g>
+<rect id="Rectangle 1090" x="43" y="91" width="25" height="2" fill="url(#paint3_linear_5891_16816)"/>
+<line id="Line 171" opacity="0.2" x1="76" y1="81.5" x2="111" y2="81.5" stroke="#5A6E8C"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_5891_16816" x1="131.902" y1="126" x2="39.5509" y2="68.3948" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7D2DC"/>
+<stop offset="0.257426" stop-color="#D4DCE4"/>
+<stop offset="1" stop-color="#F0F3F4"/>
+</linearGradient>
+<linearGradient id="paint1_linear_5891_16816" x1="115.902" y1="116" x2="23.5509" y2="58.3948" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C7D2DC"/>
+<stop offset="0.257426" stop-color="#D4DCE4"/>
+<stop offset="1" stop-color="#F0F3F4"/>
+</linearGradient>
+<linearGradient id="paint2_linear_5891_16816" x1="68.0909" y1="85" x2="28.3843" y2="66.8848" gradientUnits="userSpaceOnUse">
+<stop stop-color="#046BC0"/>
+<stop offset="0.333333" stop-color="#1B89E1"/>
+<stop offset="1" stop-color="#50B4FF"/>
+</linearGradient>
+<linearGradient id="paint3_linear_5891_16816" x1="67" y1="96" x2="47.5" y2="79" gradientUnits="userSpaceOnUse">
+<stop stop-color="#046BC0"/>
+<stop offset="0.333333" stop-color="#1B89E1"/>
+<stop offset="1" stop-color="#50B4FF"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="160" height="140" viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon-Booklet-Accordion-2folds">
+<g id="cpid">
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M83.1 77V77.3H83V77.4H83.1V77.3H83.2V77.5H83V77.6H83.1V77.9H83V78H83.4V77.9H83.5V78H83.7V77.9H83.8V78H84V77.5H83.9V77.4H84V77.1H83.8V77H83.7V77.1H83.5V77H83.4V77.1H83.2V77H83.1ZM83.9 77.9H83.8V77.7H83.9V77.9ZM83.7 77.9H83.6V77.8H83.7V77.9ZM83.9 77.3V77.2H83.8V77.3H83.9ZM83.6 77.4V77.5H83.5V77.6H83.4V77.4H83.6Z" fill="#1E1E1E"/>
+</g>
+<g id="Group 848">
+<g id="Group 841">
+<path id="Rectangle 883" d="M49 12.282C49 10.6252 50.2927 9.64663 51.8874 10.0964L103 24.5116V112.718L49 97.4884V12.282Z" fill="url(#paint0_linear_5268_14249)"/>
+<rect id="Rectangle 884" x="41" y="25" width="62" height="88" fill="url(#paint1_linear_5268_14249)"/>
+<path id="Rectangle 885" opacity="0.2" d="M41 25L103 62.4627V113H41V25Z" fill="#5A6E8C"/>
+</g>
+<path id="Rectangle 901" d="M41 25L93.1126 39.6973C94.7073 40.147 96 41.8548 96 43.5116V124.794C96 127.003 94.2764 128.308 92.1502 127.708L41 113.282V25Z" fill="url(#paint2_linear_5268_14249)"/>
+<g id="Group 840" opacity="0.7">
+<g id="Group 647">
+<rect id="Rectangle 506" width="35.1996" height="3" transform="matrix(0.965926 0.258819 0 1 50.9995 87)" fill="white"/>
+</g>
+<g id="Group 765">
+<rect id="Rectangle 506_2" width="14.4943" height="3" transform="matrix(0.965926 0.258819 0 1 60.9998 95.6794)" fill="white"/>
+</g>
+<g id="Group 766">
+<rect id="Rectangle 506_3" width="22.7766" height="3" transform="matrix(0.965926 0.258819 0 1 56.9995 100.608)" fill="white"/>
+</g>
+</g>
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M75.9231 73.4259L82 81.3925C78.5977 84.036 73.9763 84.7894 69.1621 83.4995C59.1294 80.8112 51 70.1537 51 59.6958C51 49.2314 59.1294 42.9304 69.1621 45.6187C73.9763 46.9086 78.5977 50.1451 82 54.6054L75.9231 59.3155C74.194 57.0486 71.7994 55.2911 69.1621 54.5845C63.8752 53.1678 59.5897 56.483 59.5897 61.9974C59.5897 67.5053 63.8752 73.1235 69.1621 74.5402C71.7994 75.2468 74.194 74.7726 75.9231 73.4259Z" fill="url(#paint3_linear_5268_14249)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_5268_14249" x1="53" y1="14" x2="78.7156" y2="61.9568" gradientUnits="userSpaceOnUse">
+<stop stop-color="#50B4FF"/>
+<stop offset="0.98838" stop-color="#005AB4"/>
+</linearGradient>
+<linearGradient id="paint1_linear_5268_14249" x1="64.7344" y1="107.5" x2="116.147" y2="14.1383" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A1B8CD"/>
+<stop offset="1" stop-color="#EBF4F9"/>
+</linearGradient>
+<linearGradient id="paint2_linear_5268_14249" x1="41" y1="25.5167" x2="89.215" y2="132.054" gradientUnits="userSpaceOnUse">
+<stop stop-color="#50B4FF"/>
+<stop offset="0.98838" stop-color="#005AB4"/>
+</linearGradient>
+<linearGradient id="paint3_linear_5268_14249" x1="51" y1="42.3846" x2="82.072" y2="86.8891" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#AABEC8"/>
+</linearGradient>
+</defs>
+</svg>
